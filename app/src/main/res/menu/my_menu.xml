@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="logout"
+        android:id="@+id/logoutItem"
+        app:showAsAction="always"
+        android:orderInCategory="101"/>
+    <item
+        android:id="@+id/postItem"
+        android:icon="@drawable/send"
+        android:orderInCategory="100"
+        android:title="Send Post"
+        app:showAsAction="always" />
+    <item
+    android:id="@+id/addItem"
+    android:icon="@drawable/ic_add_circle"
+    android:orderInCategory="99"
+    android:title="add friends"
+    app:showAsAction="always" />
+
+    <item
+    android:id="@+id/reflashItem"
+    android:icon="@drawable/ic_refresh"
+    android:orderInCategory="98"
+    android:title="add friends"
+    app:showAsAction="always" />
+
+</menu>
